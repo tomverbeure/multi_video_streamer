@@ -1,0 +1,8 @@
+(sym_lib_table
+  (lib (name ICE40HX4K-144)(type Legacy)(uri /Users/tom/projects/corecode-kicad-libs/ICE40HX4K-144.lib)(options "")(descr ""))
+  (lib (name JXD0-0001NL)(type Legacy)(uri ${KIPRJMOD}/library/JXD0-0001NL/JXD0-0001NL.lib)(options "")(descr ""))
+  (lib (name KSZ9031RNXIC)(type Legacy)(uri ${KIPRJMOD}/library/KSZ9031RNXIC/KSZ9031RNXIC.lib)(options "")(descr ""))
+  (lib (name BelFuse_0826-1G1T-23-F)(type Legacy)(uri /Users/tom/projects/video_streamer/library/BelFuse_0826-1G1T-23-F.lib)(options "")(descr ""))
+  (lib (name video_streamer-rescue)(type Legacy)(uri ${KIPRJMOD}/video_streamer-rescue.lib)(options "")(descr ""))
+  (lib (name OV7670)(type Legacy)(uri /Users/tom/projects/video_streamer/library/OV7670.lib)(options "")(descr ""))
+)

@@ -1,0 +1,226 @@
+PCBNEW-LibModule-V1  
+# encoding utf-8
+Units mm
+$INDEX
+PULSE_JXD0-0001NL
+$EndINDEX
+$MODULE PULSE_JXD0-0001NL
+Po 0 0 0 15 00000000 00000000 ~~
+Li PULSE_JXD0-0001NL
+Cd 
+Sc 00000000
+At STD
+Op 0 0 0
+.SolderMask 0
+.SolderPaste 0
+T0 -3.63832 -11.9855 1.72336 1.72336 0 0.05 N V 21 "PULSE_JXD0-0001NL"
+T1 -2.29066 12.2966 1.72124 1.72124 0 0.05 N V 21 "VAL**"
+DS -7.95 -10.6 7.95 -10.6 0.127 27
+DS 7.95 -10.6 7.95 10.75 0.127 27
+DS 7.95 10.75 -7.95 10.75 0.127 27
+DS -7.95 10.75 -7.95 -10.6 0.127 27
+DP 0 0 0 0 4 0 24
+Dl -7.00934 8.05
+Dl 7.005 8.05
+Dl 7.005 10.7566
+Dl -7.00934 10.7566
+DP 0 0 0 0 4 0 24
+Dl -7.02388 8.05
+Dl 7.005 8.05
+Dl 7.005 10.779
+Dl -7.02388 10.779
+DP 0 0 0 0 4 0 24
+Dl -7.02165 8.05
+Dl 7.005 8.05
+Dl 7.005 10.7755
+Dl -7.02165 10.7755
+DP 0 0 0 0 4 0 24
+Dl -7.97697 -2
+Dl -7 -2
+Dl -7 0
+Dl -7.97697 0
+DP 0 0 0 0 4 0 24
+Dl 7.00253 -2
+Dl 7.95 -2
+Dl 7.95 0
+Dl 7.00253 0
+DP 0 0 0 0 4 0 24
+Dl -7.97181 -2
+Dl -7 -2
+Dl -7 0
+Dl -7.97181 0
+DP 0 0 0 0 4 0 24
+Dl 7.00088 -2
+Dl 7.95 -2
+Dl 7.95 0
+Dl 7.00088 0
+DP 0 0 0 0 4 0 24
+Dl -7.958 -2
+Dl -7 -2
+Dl -7 0
+Dl -7.958 0
+DP 0 0 0 0 4 0 24
+Dl 7.00788 -2
+Dl 7.95 -2
+Dl 7.95 0
+Dl 7.00788 0
+DS -8.25 -4.5 -9.5 -4.5 0.05 26
+DS -9.5 -4.5 -9.5 -1.5 0.05 26
+DS -9.5 -1.5 -8.25 -1.5 0.05 26
+DS -8.25 -1.5 -8.25 11 0.05 26
+DS -8.25 11 8.25 11 0.05 26
+DS 8.25 11 8.25 -1.5 0.05 26
+DS 8.25 -1.5 9.5 -1.5 0.05 26
+DS 9.5 -1.5 9.5 -4.5 0.05 26
+DS 9.5 -4.5 8.25 -4.5 0.05 26
+DS 8.25 -4.5 8.25 -10.85 0.05 26
+DS 8.25 -10.85 -8.25 -10.85 0.05 26
+DS -8.25 -10.85 -8.25 -4.5 0.05 26
+DC -8.89 -8.89 -8.69 -8.89 0.4 21
+DS -7.95 -4.55 -7.95 -10.6 0.127 21
+DS -7.95 -10.6 7.95 -10.6 0.127 21
+DS 7.95 -10.6 7.95 -4.55 0.127 21
+DS -7.95 -1.55 -7.95 10.75 0.127 21
+DS -7.95 10.75 7.95 10.75 0.127 21
+DS 7.95 10.75 7.95 -1.55 0.127 21
+$PAD
+Sh "1" R 1.408 1.408 0 0 0
+Dr 0.9 0 0
+At STD N 00C0FFFF
+.SolderMask 0
+Ne 0 ""
+Po -5.715 -8.89
+$EndPAD
+$PAD
+Sh "2" C 1.408 1.408 0 0 0
+Dr 0.9 0 0
+At STD N 00C0FFFF
+.SolderMask 0
+Ne 0 ""
+Po -4.445 -6.35
+$EndPAD
+$PAD
+Sh "3" C 1.408 1.408 0 0 0
+Dr 0.9 0 0
+At STD N 00C0FFFF
+.SolderMask 0
+Ne 0 ""
+Po -3.175 -8.89
+$EndPAD
+$PAD
+Sh "4" C 1.408 1.408 0 0 0
+Dr 0.9 0 0
+At STD N 00C0FFFF
+.SolderMask 0
+Ne 0 ""
+Po -1.905 -6.35
+$EndPAD
+$PAD
+Sh "5" C 1.408 1.408 0 0 0
+Dr 0.9 0 0
+At STD N 00C0FFFF
+.SolderMask 0
+Ne 0 ""
+Po -0.635 -8.89
+$EndPAD
+$PAD
+Sh "6" C 1.408 1.408 0 0 0
+Dr 0.9 0 0
+At STD N 00C0FFFF
+.SolderMask 0
+Ne 0 ""
+Po 0.635 -6.35
+$EndPAD
+$PAD
+Sh "7" C 1.408 1.408 0 0 0
+Dr 0.9 0 0
+At STD N 00C0FFFF
+.SolderMask 0
+Ne 0 ""
+Po 1.905 -8.89
+$EndPAD
+$PAD
+Sh "8" C 1.408 1.408 0 0 0
+Dr 0.9 0 0
+At STD N 00C0FFFF
+.SolderMask 0
+Ne 0 ""
+Po 3.175 -6.35
+$EndPAD
+$PAD
+Sh "9" C 1.408 1.408 0 0 0
+Dr 0.9 0 0
+At STD N 00C0FFFF
+.SolderMask 0
+Ne 0 ""
+Po 4.445 -8.89
+$EndPAD
+$PAD
+Sh "10" C 1.408 1.408 0 0 0
+Dr 0.9 0 0
+At STD N 00C0FFFF
+.SolderMask 0
+Ne 0 ""
+Po 5.715 -6.35
+$EndPAD
+$PAD
+Sh "11" C 1.8 1.8 0 0 0
+Dr 1.2 0 0
+At STD N 00C0FFFF
+.SolderMask 0
+Ne 0 ""
+Po -6.645 4.06
+$EndPAD
+$PAD
+Sh "12" C 1.8 1.8 0 0 0
+Dr 1.2 0 0
+At STD N 00C0FFFF
+.SolderMask 0
+Ne 0 ""
+Po -4.095 4.06
+$EndPAD
+$PAD
+Sh "13" C 1.8 1.8 0 0 0
+Dr 1.2 0 0
+At STD N 00C0FFFF
+.SolderMask 0
+Ne 0 ""
+Po 4.105 4.06
+$EndPAD
+$PAD
+Sh "14" C 1.8 1.8 0 0 0
+Dr 1.2 0 0
+At STD N 00C0FFFF
+.SolderMask 0
+Ne 0 ""
+Po 6.655 4.06
+$EndPAD
+$PAD
+Sh "Hole" C 3.25 3.25 0 0 0
+Dr 3.25 0 0
+At HOLE N 00E0FFFF
+Po -5.715 0
+$EndPAD
+$PAD
+Sh "Hole" C 3.25 3.25 0 0 0
+Dr 3.25 0 0
+At HOLE N 00E0FFFF
+Po 5.715 0
+$EndPAD
+$PAD
+Sh "SH1" C 2.4 2.4 0 0 0
+Dr 1.6 0 0
+At STD N 00C0FFFF
+.SolderMask 0
+Ne 0 ""
+Po -7.855 -3.05
+$EndPAD
+$PAD
+Sh "SH2" C 2.4 2.4 0 0 0
+Dr 1.6 0 0
+At STD N 00C0FFFF
+.SolderMask 0
+Ne 0 ""
+Po 7.855 -3.05
+$EndPAD
+$EndMODULE PULSE_JXD0-0001NL
