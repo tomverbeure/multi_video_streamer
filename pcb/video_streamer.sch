@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 12
+Sheet 1 11
 Title ""
 Date ""
 Rev ""
@@ -14,12 +14,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Sheet
-S 8150 1300 700  150 
-U 5C67FC17
-F0 "ICE40" 50
-F1 "ICE40.sch" 50
-$EndSheet
 $Sheet
 S 4100 950  800  500 
 U 5C6A4E20
@@ -87,7 +81,7 @@ $Sheet
 S 3000 3600 900  1250
 U 5C9C0506
 F0 "OV7670 Sensor 1" 50
-F1 "OV7670_sensor.sch" 50
+F1 "OV7670_sensor2.sch" 50
 F2 "ov_pclk" I L 3000 4150 50 
 F3 "ov_vsync" I L 3000 4250 50 
 F4 "ov_href" I L 3000 4350 50 
@@ -138,7 +132,7 @@ $Sheet
 S 4600 3600 900  1250
 U 5C9C8588
 F0 "OV7670 Sensor 2" 50
-F1 "OV7670_sensor.sch" 50
+F1 "OV7670_sensor2.sch" 50
 F2 "ov_pclk" I L 4600 4150 50 
 F3 "ov_vsync" I L 4600 4250 50 
 F4 "ov_href" I L 4600 4350 50 
@@ -189,7 +183,7 @@ $Sheet
 S 6200 3600 900  1250
 U 5C9C95E9
 F0 "OV7670 Sensor 3" 50
-F1 "OV7670_sensor.sch" 50
+F1 "OV7670_sensor2.sch" 50
 F2 "ov_pclk" I L 6200 4150 50 
 F3 "ov_vsync" I L 6200 4250 50 
 F4 "ov_href" I L 6200 4350 50 
@@ -237,61 +231,10 @@ Wire Wire Line
 Text Label 5750 4750 0    50   ~ 0
 ov_soid
 $Sheet
-S 1400 5100 900  1250
-U 5C9CA91D
-F0 "OV7670 Sensor 4" 50
-F1 "OV7670_sensor.sch" 50
-F2 "ov_pclk" I L 1400 5650 50 
-F3 "ov_vsync" I L 1400 5750 50 
-F4 "ov_href" I L 1400 5850 50 
-F5 "ov_soic" I L 1400 6150 50 
-F6 "ov_soid" I L 1400 6250 50 
-F7 "ov_xclk" I L 1400 5200 50 
-F8 "ov_reset" I L 1400 5300 50 
-F9 "ov_pwdn" I L 1400 5400 50 
-F10 "ov_d[7..0]" I L 1400 5950 50 
-$EndSheet
-Wire Wire Line
-	1400 5200 850  5200
-Text Label 950  5200 0    50   ~ 0
-ov_xclk
-Wire Wire Line
-	1400 5300 850  5300
-Text Label 950  5300 0    50   ~ 0
-ov_reset
-Wire Wire Line
-	1400 5400 850  5400
-Text Label 950  5400 0    50   ~ 0
-ov_pwdn
-Wire Wire Line
-	1400 5650 850  5650
-Text Label 950  5650 0    50   ~ 0
-ov4_pclk
-Wire Wire Line
-	1400 5750 850  5750
-Text Label 950  5750 0    50   ~ 0
-ov4_vsync
-Wire Wire Line
-	1400 5850 850  5850
-Text Label 950  5850 0    50   ~ 0
-ov4_href
-Wire Bus Line
-	1400 5950 850  5950
-Text Label 950  5950 0    50   ~ 0
-ov4_d[7..0]
-Wire Wire Line
-	1400 6150 850  6150
-Text Label 950  6150 0    50   ~ 0
-ov4_soic
-Wire Wire Line
-	1400 6250 850  6250
-Text Label 950  6250 0    50   ~ 0
-ov_soid
-$Sheet
 S 3000 5100 900  1250
 U 5C9CA93A
 F0 "OV7670 Sensor 5" 50
-F1 "OV7670_sensor.sch" 50
+F1 "OV7670_sensor2.sch" 50
 F2 "ov_pclk" I L 3000 5650 50 
 F3 "ov_vsync" I L 3000 5750 50 
 F4 "ov_href" I L 3000 5850 50 
@@ -342,7 +285,7 @@ $Sheet
 S 4600 5100 900  1250
 U 5C9CA957
 F0 "OV7670 Sensor 6" 50
-F1 "OV7670_sensor.sch" 50
+F1 "OV7670_sensor2.sch" 50
 F2 "ov_pclk" I L 4600 5650 50 
 F3 "ov_vsync" I L 4600 5750 50 
 F4 "ov_href" I L 4600 5850 50 
@@ -393,7 +336,7 @@ $Sheet
 S 6200 5100 900  1250
 U 5C9CA974
 F0 "OV7670 Sensor 7" 50
-F1 "OV7670_sensor.sch" 50
+F1 "OV7670_sensor2.sch" 50
 F2 "ov_pclk" I L 6200 5650 50 
 F3 "ov_vsync" I L 6200 5750 50 
 F4 "ov_href" I L 6200 5850 50 
@@ -440,4 +383,10 @@ Wire Wire Line
 	6200 6250 5650 6250
 Text Label 5750 6250 0    50   ~ 0
 ov_soid
+$Sheet
+S 8150 1300 700  150 
+U 5C67FC17
+F0 "ICE40" 50
+F1 "ICE40.sch" 50
+$EndSheet
 $EndSCHEMATC
