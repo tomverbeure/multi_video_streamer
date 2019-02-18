@@ -1,2 +1,3 @@
 (fp_lib_table
+  (lib (name OV7670_Module)(type KiCad)(uri ${KIPRJMOD}/library/OV7670_Module.pretty)(options "")(descr ""))
 )

@@ -11,6 +11,7 @@ F3 "" 0 1250 50 H I C CNN
 $FPLIST
  Connector_PinSocket_2.54mm:PinSocket_2x09_P2.54mm_Vertical
  Connector_PinSocket_2.54mm:PinSocket_2x09_P2.54mm_Horizontal
+ OV7670
 $ENDFPLIST
 DRAW
 S -100 1300 400 -1000 0 1 0 f

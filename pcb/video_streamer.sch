@@ -125,7 +125,7 @@ ov1_href
 Wire Bus Line
 	3000 4450 2450 4450
 Text Label 2550 4450 0    50   ~ 0
-ov1d[7..0]
+ov1_d[7..0]
 Wire Wire Line
 	3000 4650 2450 4650
 Text Label 2550 4650 0    50   ~ 0
@@ -176,7 +176,7 @@ ov2_href
 Wire Bus Line
 	4600 4450 4050 4450
 Text Label 4150 4450 0    50   ~ 0
-ov2d[7..0]
+ov2_d[7..0]
 Wire Wire Line
 	4600 4650 4050 4650
 Text Label 4150 4650 0    50   ~ 0
@@ -188,7 +188,7 @@ ov_soid
 $Sheet
 S 6200 3600 900  1250
 U 5C9C95E9
-F0 "sheet5C9C95DE" 50
+F0 "OV7670 Sensor 3" 50
 F1 "OV7670_sensor.sch" 50
 F2 "ov_pclk" I L 6200 4150 50 
 F3 "ov_vsync" I L 6200 4250 50 
@@ -215,23 +215,23 @@ ov_pwdn
 Wire Wire Line
 	6200 4150 5650 4150
 Text Label 5750 4150 0    50   ~ 0
-ov2_pclk
+ov3_pclk
 Wire Wire Line
 	6200 4250 5650 4250
 Text Label 5750 4250 0    50   ~ 0
-ov2_vsync
+ov3_vsync
 Wire Wire Line
 	6200 4350 5650 4350
 Text Label 5750 4350 0    50   ~ 0
-ov2_href
+ov3_href
 Wire Bus Line
 	6200 4450 5650 4450
 Text Label 5750 4450 0    50   ~ 0
-ov2d[7..0]
+ov3_d[7..0]
 Wire Wire Line
 	6200 4650 5650 4650
 Text Label 5750 4650 0    50   ~ 0
-ov2_soic
+ov3_soic
 Wire Wire Line
 	6200 4750 5650 4750
 Text Label 5750 4750 0    50   ~ 0
@@ -239,7 +239,7 @@ ov_soid
 $Sheet
 S 1400 5100 900  1250
 U 5C9CA91D
-F0 "sheet5C9CA90F" 50
+F0 "OV7670 Sensor 4" 50
 F1 "OV7670_sensor.sch" 50
 F2 "ov_pclk" I L 1400 5650 50 
 F3 "ov_vsync" I L 1400 5750 50 
@@ -266,23 +266,23 @@ ov_pwdn
 Wire Wire Line
 	1400 5650 850  5650
 Text Label 950  5650 0    50   ~ 0
-ov0_pclk
+ov4_pclk
 Wire Wire Line
 	1400 5750 850  5750
 Text Label 950  5750 0    50   ~ 0
-ov0_vsync
+ov4_vsync
 Wire Wire Line
 	1400 5850 850  5850
 Text Label 950  5850 0    50   ~ 0
-ov0_href
+ov4_href
 Wire Bus Line
 	1400 5950 850  5950
 Text Label 950  5950 0    50   ~ 0
-ov0_d[7..0]
+ov4_d[7..0]
 Wire Wire Line
 	1400 6150 850  6150
 Text Label 950  6150 0    50   ~ 0
-ov0_soic
+ov4_soic
 Wire Wire Line
 	1400 6250 850  6250
 Text Label 950  6250 0    50   ~ 0
@@ -290,7 +290,7 @@ ov_soid
 $Sheet
 S 3000 5100 900  1250
 U 5C9CA93A
-F0 "sheet5C9CA910" 50
+F0 "OV7670 Sensor 5" 50
 F1 "OV7670_sensor.sch" 50
 F2 "ov_pclk" I L 3000 5650 50 
 F3 "ov_vsync" I L 3000 5750 50 
@@ -317,23 +317,23 @@ ov_pwdn
 Wire Wire Line
 	3000 5650 2450 5650
 Text Label 2550 5650 0    50   ~ 0
-ov1_pclk
+ov5_pclk
 Wire Wire Line
 	3000 5750 2450 5750
 Text Label 2550 5750 0    50   ~ 0
-ov1_vsync
+ov5_vsync
 Wire Wire Line
 	3000 5850 2450 5850
 Text Label 2550 5850 0    50   ~ 0
-ov1_href
+ov5_href
 Wire Bus Line
 	3000 5950 2450 5950
 Text Label 2550 5950 0    50   ~ 0
-ov1d[7..0]
+ov5_d[7..0]
 Wire Wire Line
 	3000 6150 2450 6150
 Text Label 2550 6150 0    50   ~ 0
-ov1_soic
+ov5_soic
 Wire Wire Line
 	3000 6250 2450 6250
 Text Label 2550 6250 0    50   ~ 0
@@ -341,7 +341,7 @@ ov_soid
 $Sheet
 S 4600 5100 900  1250
 U 5C9CA957
-F0 "sheet5C9CA911" 50
+F0 "OV7670 Sensor 6" 50
 F1 "OV7670_sensor.sch" 50
 F2 "ov_pclk" I L 4600 5650 50 
 F3 "ov_vsync" I L 4600 5750 50 
@@ -368,23 +368,23 @@ ov_pwdn
 Wire Wire Line
 	4600 5650 4050 5650
 Text Label 4150 5650 0    50   ~ 0
-ov2_pclk
+ov6_pclk
 Wire Wire Line
 	4600 5750 4050 5750
 Text Label 4150 5750 0    50   ~ 0
-ov2_vsync
+ov6_vsync
 Wire Wire Line
 	4600 5850 4050 5850
 Text Label 4150 5850 0    50   ~ 0
-ov2_href
+ov6_href
 Wire Bus Line
 	4600 5950 4050 5950
 Text Label 4150 5950 0    50   ~ 0
-ov2d[7..0]
+ov6_d[7..0]
 Wire Wire Line
 	4600 6150 4050 6150
 Text Label 4150 6150 0    50   ~ 0
-ov2_soic
+ov6_soic
 Wire Wire Line
 	4600 6250 4050 6250
 Text Label 4150 6250 0    50   ~ 0
@@ -392,7 +392,7 @@ ov_soid
 $Sheet
 S 6200 5100 900  1250
 U 5C9CA974
-F0 "sheet5C9CA912" 50
+F0 "OV7670 Sensor 7" 50
 F1 "OV7670_sensor.sch" 50
 F2 "ov_pclk" I L 6200 5650 50 
 F3 "ov_vsync" I L 6200 5750 50 
@@ -419,23 +419,23 @@ ov_pwdn
 Wire Wire Line
 	6200 5650 5650 5650
 Text Label 5750 5650 0    50   ~ 0
-ov2_pclk
+ov7_pclk
 Wire Wire Line
 	6200 5750 5650 5750
 Text Label 5750 5750 0    50   ~ 0
-ov2_vsync
+ov7_vsync
 Wire Wire Line
 	6200 5850 5650 5850
 Text Label 5750 5850 0    50   ~ 0
-ov2_href
+ov7_href
 Wire Bus Line
 	6200 5950 5650 5950
 Text Label 5750 5950 0    50   ~ 0
-ov2d[7..0]
+ov7_d[7..0]
 Wire Wire Line
 	6200 6150 5650 6150
 Text Label 5750 6150 0    50   ~ 0
-ov2_soic
+ov7_soic
 Wire Wire Line
 	6200 6250 5650 6250
 Text Label 5750 6250 0    50   ~ 0
