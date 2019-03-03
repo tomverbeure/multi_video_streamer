@@ -15,16 +15,34 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Sheet
-S 4100 950  800  500 
+S 1050 950  800  500 
 U 5C6A4E20
 F0 "Ethernet" 50
 F1 "Ethernet.sch" 50
 $EndSheet
 $Sheet
-S 5750 1000 800  550 
+S 8150 1000 1250 5000
 U 5C9A920A
 F0 "EP2C8" 50
 F1 "EP2C8.sch" 50
+F2 "ov_reset" I L 8150 1100 50 
+F3 "ov_pwdn" I L 8150 1200 50 
+F4 "ov_xclk" I L 8150 1300 50 
+F5 "ov0_d[7..0]" I L 8150 1400 50 
+F6 "ov0_pclk" I L 8150 1500 50 
+F7 "ov0_vsync" I L 8150 1600 50 
+F8 "ov0_href" I L 8150 1700 50 
+F9 "ov0_soic" I L 8150 1800 50 
+F10 "ov1_d[7..0]" I L 8150 2100 50 
+F11 "ov1_pclk" I L 8150 2200 50 
+F12 "ov1_vsync" I L 8150 2300 50 
+F13 "ov1_href" I L 8150 2400 50 
+F14 "ov1_soic" I L 8150 2500 50 
+F15 "ov2_d[7..0]" I L 8150 2700 50 
+F16 "ov2_pclk" I L 8150 2800 50 
+F17 "ov2_vsync" I L 8150 2900 50 
+F18 "ov2_href" I L 8150 3000 50 
+F19 "ov2_soic" I L 8150 3100 50 
 $EndSheet
 $Sheet
 S 1400 3600 900  1250
@@ -233,7 +251,7 @@ ov_soid
 $Sheet
 S 3000 5100 900  1250
 U 5C9CA93A
-F0 "OV7670 Sensor 5" 50
+F0 "OV7670 Sensor 4" 50
 F1 "OV7670_sensor2.sch" 50
 F2 "ov_pclk" I L 3000 5650 50 
 F3 "ov_vsync" I L 3000 5750 50 
@@ -260,23 +278,23 @@ ov_pwdn
 Wire Wire Line
 	3000 5650 2450 5650
 Text Label 2550 5650 0    50   ~ 0
-ov5_pclk
+ov4_pclk
 Wire Wire Line
 	3000 5750 2450 5750
 Text Label 2550 5750 0    50   ~ 0
-ov5_vsync
+ov4_vsync
 Wire Wire Line
 	3000 5850 2450 5850
 Text Label 2550 5850 0    50   ~ 0
-ov5_href
+ov4_href
 Wire Bus Line
 	3000 5950 2450 5950
 Text Label 2550 5950 0    50   ~ 0
-ov5_d[7..0]
+ov4_d[7..0]
 Wire Wire Line
 	3000 6150 2450 6150
 Text Label 2550 6150 0    50   ~ 0
-ov5_soic
+ov4_soic
 Wire Wire Line
 	3000 6250 2450 6250
 Text Label 2550 6250 0    50   ~ 0
@@ -284,7 +302,7 @@ ov_soid
 $Sheet
 S 4600 5100 900  1250
 U 5C9CA957
-F0 "OV7670 Sensor 6" 50
+F0 "OV7670 Sensor 5" 50
 F1 "OV7670_sensor2.sch" 50
 F2 "ov_pclk" I L 4600 5650 50 
 F3 "ov_vsync" I L 4600 5750 50 
@@ -311,23 +329,23 @@ ov_pwdn
 Wire Wire Line
 	4600 5650 4050 5650
 Text Label 4150 5650 0    50   ~ 0
-ov6_pclk
+ov5_pclk
 Wire Wire Line
 	4600 5750 4050 5750
 Text Label 4150 5750 0    50   ~ 0
-ov6_vsync
+ov5_vsync
 Wire Wire Line
 	4600 5850 4050 5850
 Text Label 4150 5850 0    50   ~ 0
-ov6_href
+ov5_href
 Wire Bus Line
 	4600 5950 4050 5950
 Text Label 4150 5950 0    50   ~ 0
-ov6_d[7..0]
+ov5_d[7..0]
 Wire Wire Line
 	4600 6150 4050 6150
 Text Label 4150 6150 0    50   ~ 0
-ov6_soic
+ov5_soic
 Wire Wire Line
 	4600 6250 4050 6250
 Text Label 4150 6250 0    50   ~ 0
@@ -335,7 +353,7 @@ ov_soid
 $Sheet
 S 6200 5100 900  1250
 U 5C9CA974
-F0 "OV7670 Sensor 7" 50
+F0 "OV7670 Sensor 6" 50
 F1 "OV7670_sensor2.sch" 50
 F2 "ov_pclk" I L 6200 5650 50 
 F3 "ov_vsync" I L 6200 5750 50 
@@ -362,31 +380,103 @@ ov_pwdn
 Wire Wire Line
 	6200 5650 5650 5650
 Text Label 5750 5650 0    50   ~ 0
-ov7_pclk
+ov6_pclk
 Wire Wire Line
 	6200 5750 5650 5750
 Text Label 5750 5750 0    50   ~ 0
-ov7_vsync
+ov6_vsync
 Wire Wire Line
 	6200 5850 5650 5850
 Text Label 5750 5850 0    50   ~ 0
-ov7_href
+ov6_href
 Wire Bus Line
 	6200 5950 5650 5950
 Text Label 5750 5950 0    50   ~ 0
-ov7_d[7..0]
+ov6_d[7..0]
 Wire Wire Line
 	6200 6150 5650 6150
 Text Label 5750 6150 0    50   ~ 0
-ov7_soic
+ov6_soic
 Wire Wire Line
 	6200 6250 5650 6250
 Text Label 5750 6250 0    50   ~ 0
 ov_soid
 $Sheet
-S 8150 1300 700  150 
+S 2250 850  700  150 
 U 5C67FC17
 F0 "ICE40" 50
 F1 "ICE40.sch" 50
 $EndSheet
+Wire Wire Line
+	8150 1300 7600 1300
+Text Label 7700 1300 0    50   ~ 0
+ov_xclk
+Text Label 7700 1100 0    50   ~ 0
+ov_reset
+Wire Wire Line
+	8150 1200 7600 1200
+Text Label 7700 1200 0    50   ~ 0
+ov_pwdn
+Wire Wire Line
+	8150 1100 7600 1100
+Wire Bus Line
+	8150 1400 7600 1400
+Text Label 7700 1400 0    50   ~ 0
+ov0_d[7..0]
+Wire Wire Line
+	8150 1500 7600 1500
+Text Label 7700 1500 0    50   ~ 0
+ov0_pclk
+Wire Wire Line
+	8150 1600 7600 1600
+Text Label 7700 1600 0    50   ~ 0
+ov0_vsync
+Wire Wire Line
+	8150 1700 7600 1700
+Text Label 7700 1700 0    50   ~ 0
+ov0_href
+Wire Wire Line
+	8150 1800 7600 1800
+Text Label 7700 1800 0    50   ~ 0
+ov0_soic
+Wire Wire Line
+	8150 2200 7600 2200
+Text Label 7700 2200 0    50   ~ 0
+ov1_pclk
+Wire Wire Line
+	8150 2300 7600 2300
+Text Label 7700 2300 0    50   ~ 0
+ov1_vsync
+Wire Wire Line
+	8150 2400 7600 2400
+Text Label 7700 2400 0    50   ~ 0
+ov1_href
+Wire Bus Line
+	8150 2100 7600 2100
+Text Label 7700 2100 0    50   ~ 0
+ov1_d[7..0]
+Wire Wire Line
+	8150 2500 7600 2500
+Text Label 7700 2500 0    50   ~ 0
+ov1_soic
+Wire Wire Line
+	8150 2800 7600 2800
+Text Label 7700 2800 0    50   ~ 0
+ov2_pclk
+Wire Wire Line
+	8150 2900 7600 2900
+Text Label 7700 2900 0    50   ~ 0
+ov2_vsync
+Wire Wire Line
+	8150 3000 7600 3000
+Text Label 7700 3000 0    50   ~ 0
+ov2_href
+Wire Bus Line
+	8150 2700 7600 2700
+Text Label 7700 2700 0    50   ~ 0
+ov2_d[7..0]
+Wire Wire Line
+	8150 3100 7600 3100
+Text Label 7700 3100 0    50   ~ 0
+ov2_soic
 $EndSCHEMATC
